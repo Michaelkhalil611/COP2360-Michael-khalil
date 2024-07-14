@@ -1,6 +1,6 @@
-// In my example, I will be using the Classes.txt as my reference
-// I will use the 'Octopus' and 'Wine' classes to build a simple application that demonstrates:
-// using fields & properties, constructors (including overloading), object initializers, and deconstructors
+// In my example, I will reference the Classes.txt file.
+// I will utilize the 'Octopus' and 'Wine' classes to create a simple application that demonstrates:
+// fields and properties, constructors including overloading, object initializers, and destructors.
 
 // Octopus.cs
 using System;
@@ -8,7 +8,7 @@ using System;
 public class Octopus
 {
     // Fields
-    public int Age = 10;
+    public int Age = 3;
     public readonly string Name;
     public readonly int Legs = 8;
 
@@ -26,8 +26,6 @@ public class Octopus
 }
 
 // Wine.cs
-
-
 public class Wine
 {
     public decimal Price { get; set; }
