@@ -10,11 +10,11 @@ namespace HandlingDivision
             string input_1 = Console.ReadLine();
 
             // ask the user to enter the second number:
-            Console.WriteLine("Please enter your second number ");
+            Console.WriteLine("Please enter your second number: ");
             string input_2 = Console.ReadLine();
             
 
-            try // using try and catch statements to define errors in a code block.
+            try // using try and catch statement to allow to define errors in a block of code.
             {    //Convery the strings to integers to be able to decide on a number. 
                 int number_1 = Convert.ToInt32(input_1);
                 int number_2 = Convert.ToInt32(input_2);
@@ -42,7 +42,7 @@ namespace HandlingDivision
 
             catch(OverflowException) // it will catch if the number is too big or too small 
             {
-                Console.WriteLine("ERRPR: one or noth numbers are too large pleass Enter a valid number");
+                Console.WriteLine("ERROR: one or both numbers are too large  or to small please Enter a valid number");
             }
 
             catch(Exception ex) // it will catch any aother errors 
